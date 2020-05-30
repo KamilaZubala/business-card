@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,19 +9,34 @@
   </head>
   <body>
     <main class="main">
-      <article class="person">
-        <img class="person__picture" src="avatar.png" alt="Kamila's photo" />
-        <header class="person__info">
-          <h1 class="person__name">Imię i nazwisko</h1>
-          <p class="person__position">Stanowisko</p>
+      <img
+        class="picture"
+        src="img/avatar_kamila_round.png"
+        width="200px"
+        height="200px"
+        alt="Kamila's photo"
+      />
+      <article>
+        <header>
+          <h1 class="main__name">Kamila Zubala</h1>
+          <p class="main__position">Adeptka frontendu</p>
         </header>
-        <p class="person__description person__description--with-margin">
-          Programista z <strong class="special">kilkunastoletnim doświadczeniem</strong>, fotograf, operator
-          drona, właściciel Sokoła Millennium (na razie tylko z Lego), prelegent
-          i szkoleniowiec. Uwielbia eksperymentować z nowymi teschnologiami, w
-          swojej twórczości ocierając się o sztukę.
-        </p>
-        <p class="person__description">W sieci: <a class="person__link" href="#">Facebook</a>, <a class="person__link" href="#">Github</a>, <a class="person__link" href="#">Instagram</a>.</p>
+        <section class="main__description">
+          <p>Z wykształcenia tłumaczka i filolożka.</p>
+          <p>
+            W ciągłym poszukiwaniu sensu, ale czasem nie może znaleźć nawet
+            kluczy do mieszkania.
+          </p>
+          <p>Lubi koty, podróże i pikantną kuchnię.</p>
+          <p>Nie lubi krupniku, korpomowy i Donalda Trumpa.</p>
+        </section>
+        <a class="link" href="https://github.com/KamilaZubala" target="_blank"
+          ><img
+            src="img/github_icon.jpg"
+            width="40px"
+            height="40px"
+            alt="github icon"
+        /></a>
       </article>
     </main>
   </body>
