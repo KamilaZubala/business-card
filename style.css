@@ -11,6 +11,9 @@ html {
 body {
   background: cornflowerblue;
   min-height: 100vh;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .picture {
@@ -28,25 +31,24 @@ body {
   width: 624px;
   border-radius: 32px;
   padding: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .main__name {
-    font-style: bold;
-    font-size: 32px;
-    margin-top: 8px;
-    margin-bottom: 2px;
+  font-style: bold;
+  font-size: 32px;
+  margin-top: 8px;
+  margin-bottom: 2px;
 }
 
 .main__position {
-    color: palevioletred;
-    font-size: 24px;
-    font-style: italic;
-    margin: 2px;
-    
+  color: palevioletred;
+  font-size: 24px;
+  font-style: italic;
+  margin: 2px;
 }
 
 .link {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
